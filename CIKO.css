@@ -201,5 +201,6 @@ color: #fbff00
 
 .kolom-koran{
    padding: 10px;
-   -webkit-column-count: 4 ;
+   column-count : 4;
+   
 }
