@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;800&display=swap');
 
+
 *,
 html{
    padding: 0;
@@ -96,6 +97,8 @@ li{
 
 .top-wrapper{
 background-image: url(wrapper.jpeg);
+border-bottom-left-radius: 30px;
+border-bottom-right-radius: 30px;
 padding: 100px 0 200px 0 ;
 background-size: cover;
 text-align: center;
@@ -106,7 +109,7 @@ text-align: center;
 .container h1 {
 font-family: 'Kanit', sans-serif;
 font-size: 50pt;
-color: rgb(255, 251, 0);
+color: #fbff00
 
 
 }
@@ -114,7 +117,7 @@ color: rgb(255, 251, 0);
 .container p {
    font-family: 'Kanit', sans-serif;
    font-size: 16pt;
-   color: rgb(255, 255, 255);
+   color:  #ffffff
    
 
    
@@ -182,4 +185,21 @@ color: rgb(255, 251, 0);
 .kirim-tombol{
    width: 100px;
    align-items: center;
+}
+
+.artikel-teks{
+   border: #64ce75;
+   border-radius: 40px;
+   border-style: solid;
+   font-family: 'Kanit', sans-serif;
+   padding: 10px;
+}
+
+.artikel{
+   padding: 5px;
+}
+
+.kolom-koran{
+   padding: 10px;
+   -webkit-column-count: 4 ;
 }
