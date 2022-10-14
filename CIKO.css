@@ -13,8 +13,6 @@ html{
 }
 a{
    text-decoration: none;
-   color: rgb(255, 255, 255);
-
 }
 
 li{
@@ -60,7 +58,11 @@ li{
    padding: 0px 0px 0px 200px;
    font-family: 'Kanit', sans-serif;
    color: white;
+  
    
+}
+.menu-navbar a{
+   color: rgb(255, 255, 255);
 }
 .menu-navbar i:hover{
    background-color: mediumslateblue;
@@ -132,10 +134,18 @@ color: #fbff00
    color: rgb(255, 255, 255);
 }
 
+.btn-wrapper .kandungan{
+   color: #000;
+}
+
+   
+
+
+
 .btn-wrapper p{
    padding: 10px 0;
 }
-.btn-signup{
+.show-btn{
    background-color: white;
    border-radius: 15px;
    padding: 6px;
@@ -158,7 +168,7 @@ color: #fbff00
    color: white;
    }
 
-   .btn-signup:hover{
+   .show-btn:hover{
    background-color: lightsteelblue;
    }
 
@@ -187,6 +197,72 @@ color: #fbff00
    align-items: center;
 }
 
+input[type="checkbox"]{
+   display: none;
+}
+
+.kandungan{
+   position: absolute;
+   top: 80%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background: #ffffff;
+   width: 410px;
+   padding: 30px;
+   font-family: 'Kanit', sans-serif;
+   box-shadow: 0 0 50pxpx rgb(0, 0, 0);
+   border-radius: 25px;
+   display: none;
+  }
+  #show:checked ~ .kandungan{
+   display: block;
+  }
+
+  .fa-rectangle-xmark{
+   position: absolute;
+   right: 20px;
+   top: 15px;
+   cursor: pointer;
+   
+  }
+  .fa-rectangle-xmark:hover{
+   color: rgb(158, 147, 147);
+  }
+.text{
+text-align: center;
+font-weight: 600;
+font-size: 20pt;
+}
+.Login form .data {
+   height: 45px;
+   width: 100%;
+   margin: 40px 0;
+}
+form .data label{
+   font-size: 20px;
+}
+.forgot{
+   color: aqua;
+   font-size: medium;
+   text-decoration: underline;
+}
+form .data input{
+   height: 100%;
+   width: 100%;
+   font-size: 25px;
+}
+
+form .btn-login{
+   text-align: center;
+   width: 100%;
+   position: relative;
+   font-family: 'Kanit', sans-serif;
+   height: 100%;
+   padding-top: 40px;
+}
+
+
+
 .artikel-teks{
    border: #64ce75;
    border-radius: 40px;
@@ -203,4 +279,7 @@ color: #fbff00
    padding: 10px;
    column-count : 4;
    
+}
+.garis{
+ size: 20px;
 }
