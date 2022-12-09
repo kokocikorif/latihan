@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;800&display=swap');
+
+
+*,
+html{
+   padding: 0;
+   margin: 0;
+}
+.body{
+   background-color: aliceblue;
+   margin: 0;
+   padding: 0;
+}
+a{
+   text-decoration: none;
+}
+
+li{
+   list-style-type: none;
+
+}
+.navbar{
+   display: flex;
+   width: auto;
+   background-color:  #64ce75;
+   height: 70px;
+   padding: 0px 0px 0px 0px;
+   align-items: center;
+   list-style-type: none;
+
+}
+
+.logo{
+   float: left;
+   width: 5%;
+}
+
+.teks{
+   width: 10%;
+   font-size: 15pt;
+   font-weight: 1000px;
+   font-family: 'Kanit', sans-serif;
+   color: white;
+   line-height: 1;
+   
+   
+   
+   
+   
+   
+   
+}
+.menu-navbar{
+   display: flex;
+   align-items: left;
+   width: 45%;
+   justify-content: space-between;
+   padding: 0px 0px 0px 200px;
+   font-family: 'Kanit', sans-serif;
+   color: white;
+  
+   
+}
+.menu-navbar a{
+   color: rgb(255, 255, 255);
+}
+.menu-navbar i:hover{
+   background-color: mediumslateblue;
+   border-radius: 10%;
+   padding: 3px 3px 3px 3px;
+
+}
+.menu-navbar a:hover{
+   background-color: mediumslateblue;
+   border-radius: 10%;
+   padding: 3px 3px 3px 3px;
+}
+
+.sosmed{
+   display: flex;
+   align-items: center;
+   padding: 2px 0px 0px 150px;
+   color: rgb(255, 255, 255);
+   justify-content: space-between;
+
+   
+}
+
+.sosmed i:hover {
+   background-color: rgb(255, 255, 255);
+   border-radius: 20%;
+   padding: 3px 3px 3px 3px;
+}

@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;800&display=swap');
+
+
+*,
+html{
+   padding: 0;
+   margin: 0;
+}
+.body{
+   background-color: aliceblue;
+   margin: 0;
+   padding: 0;
+}
+a{
+   text-decoration: none;
+}
+
+li{
+   list-style-type: none;
+
+}
+.navbar{
+   display: flex;
+   width: auto;
+   background-color:  #64ce75;
+   height: 70px;
+   padding: 0px 0px 0px 0px;
+   align-items: center;
+   list-style-type: none;
+
+}
+
+.logo{
+   float: left;
+   width: 5%;
+}
+
+.teks{
+   width: 10%;
+   font-size: 15pt;
+   font-weight: 1000px;
+   font-family: 'Kanit', sans-serif;
+   color: white;
+   line-height: 1;
+   
+   
+   
+   
+   
+   
+   
+}
+.menu-navbar{
+   display: flex;
+   align-items: left;
+   width: 45%;
+   justify-content: space-between;
+   padding: 0px 0px 0px 200px;
+   font-family: 'Kanit', sans-serif;
+   color: white;
+  
+   
+}
+.menu-navbar a{
+   color: rgb(255, 255, 255);
+}
+.menu-navbar i:hover{
+   background-color: mediumslateblue;
+   border-radius: 10%;
+   padding: 3px 3px 3px 3px;
+
+}
+.menu-navbar a:hover{
+   background-color: mediumslateblue;
+   border-radius: 10%;
+   padding: 3px 3px 3px 3px;
+}
+
+.sosmed{
+   display: flex;
+   align-items: center;
+   padding: 2px 0px 0px 150px;
+   color: rgb(255, 255, 255);
+   justify-content: space-between;
+
+   
+}
+
+.sosmed i:hover {
+   background-color: rgb(255, 255, 255);
+   border-radius: 20%;
+   padding: 3px 3px 3px 3px;
+}
+
+.misah {
+    height: 10px;
+    width: auto;
+}
+
+.judul {
+    height: 70px;
+    justify-content: center;
+    text-align-last: center;
+    background-color: #64ce75;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    border-radius: 30px;
+    font-size: larger;
+
+
+}
+.foto{
+    float: left;
+    width: 300px;
+    margin: 50px 20px 50px 50px;
+    border: 2pt solid #64ce75 ;
+
+}
+.isi{
+    background-color: #64ce75;
+}
+.isian{
+    /* justify-content: center; */
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    margin-top: 60px;
+    background-color: #64ce75;
+    /* display: flex;  */
+    padding: 10px 20px 0px 20px;
+    height: 60px;
+    margin-left: 200px;
+    margin-right:50px;
+    border-radius: 50px;
+    align-items: right;
+
+}
+.isian a {
+    align-items: center;
+    text-align: left;
+    font-size: 40px;
+    padding-left: 10px;
+    
+}
+.pisah{
+    height: 30px;
+    width: auto;
+
+}
+body .deskripsi{
+    padding-top: 15px;
+}
+.deskripsi{
+    background-color: #64ce75;
+    padding-top: 20px;
+    font-size: 25px;
+    border-radius: 50px;
+    align-items: right;
+}
+.pilihan{
+   padding-top: 500px;
+   padding-right: 350px;
+   display: flex;
+   color: rgb(255, 255, 255);
+   justify-content: space-between;
+   font-family: 'Kanit', sans-serif;
+   font-size: 30px;
+   list-style-type: none;
+   text-align: center;
+   }
+.pilihan i:hover{
+   background-color: #64ce75;
+}
+
+
+  
